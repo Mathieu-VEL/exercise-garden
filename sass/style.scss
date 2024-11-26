@@ -1,0 +1,88 @@
+$backgroundcolor: #e0e0e0;
+$bundlecolor: #933645;
+$fontcolor: rgb(27, 27, 27);
+$vert: #17cd28;
+
+
+
+
+
+
+html {
+        width: 1000px;
+        margin: auto;
+}
+
+body{
+    background-color: rgb(214, 214, 214);
+    // width: 1000px;
+
+}
+
+
+
+
+header{
+    nav{
+        background-color: #faf9f9;
+        height: 70px;
+        align-content: center;
+        align-items: center;
+
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            margin: 0px;
+            padding: 0px 0px 0px 0px;
+            height: 70px;
+
+            li{
+                // margin: 0;
+                align-items: center;
+                align-content: center;
+                
+            }
+
+            .logo{
+                // padding-right: 200px;
+                // padding-left: 50px;
+                color: $fontcolor;
+                border-bottom: 10px solid $bundlecolor;
+            }
+
+            .accueil{
+                padding-left: 300px;
+            }
+
+            a{
+                text-decoration: none;
+                color: $fontcolor;
+                transition: 0.5s;
+            }
+
+            a:hover{
+                border-bottom: 10px solid  $vert;
+            }
+            
+        }
+    }
+}
+
+.carousel-item{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
