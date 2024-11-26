@@ -41,4 +41,8 @@ header nav ul a:hover {
   border-bottom: 10px solid #17cd28;
 }
 
+carousel-inner h1 {
+  color: #e0e0e0;
+}
+
 /*# sourceMappingURL=style.css.map */
